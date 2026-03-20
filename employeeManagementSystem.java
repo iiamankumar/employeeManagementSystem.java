@@ -120,8 +120,8 @@ public class employeeManagment {
                       System.out.println("List of Employees:");
                       ems.displayEmployees();
                   }
-                  case 4 -> System.out.println("Exiting Employee Management System...");
-                  default -> System.out.println("Invalid choice. Try again.");
+                  case 4 -> System.out.println("Exiting Employee Management System");
+                  default -> System.out.println("Invalid choice. Try again!");
               }
           }
       }
